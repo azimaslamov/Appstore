@@ -55,12 +55,19 @@
   {
     "id": "absurd-projekt",
     "repoName": "ABSURD-projekt-",
-    "title": "ABSURD projekt",
+    "title": "absurd",
     "category": "oyinlar",
-    "shortDesc": "",
-    "fullDesc": "",
+    "shortDesc": "Sabringizni oxirigacha sinaydigan sirli minimalistik tajriba.",
+    "fullDesc": "Bu yerda hech narsa shoshilmaydi va hech narsa bekorga emas... yoki aksincha? Sokin matnlar, past chastotali tovush va sabringiz uchun atalgan maxsus kutilmagan yakun. Oxirigacha chiday olasizmi?",
     "iconUrl": "https://azimaslamov.github.io/ABSURD-projekt-/absurd.png",
-    "screenshots": [],
+    "screenshots": [
+      "https://azimaslamov.github.io/ABSURD-projekt-/s1.png",
+      "https://azimaslamov.github.io/ABSURD-projekt-/s2.png",
+      "https://azimaslamov.github.io/ABSURD-projekt-/s3.png",
+      "https://azimaslamov.github.io/ABSURD-projekt-/s4.png",
+      "https://azimaslamov.github.io/ABSURD-projekt-/s5.png",
+      "https://azimaslamov.github.io/ABSURD-projekt-/s6.png"
+    ],
     "liveUrl": "https://azimaslamov.github.io/ABSURD-projekt-/",
     "version": "0.0.5",
     "updated": "2026-11-27",
