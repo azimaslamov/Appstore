@@ -98,6 +98,8 @@ dialog::backdrop{background:rgba(8,14,26,.55);-webkit-backdrop-filter:blur(2px);
 .admin{width:min(900px,100%);max-width:100%;height:100dvh;max-height:100dvh;margin:0 auto;overflow:auto;padding-bottom:160px}
 .admin-bar{position:sticky;top:0;z-index:3;display:flex;justify-content:space-between;align-items:center;
   padding:calc(env(safe-area-inset-top) + 10px) 16px 10px;background:var(--surface);border-bottom:1px solid var(--line)}
+.a-sec{padding:16px;border-bottom:1px solid var(--line)}
+.admin > .a-sec:last-of-type{padding-bottom:160px;border-bottom:0}
 .admin-bar h2{margin:0;font-size:1.2rem}
 .a-sec{padding:16px;border-bottom:1px solid var(--line)}
 .a-sec h3{margin:0 0 8px;font-size:1.02rem}
