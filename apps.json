@@ -32,5 +32,19 @@
     "version": "0.0.2",
     "updated": "2026-11-25",
     "installSelf": false
+  },
+  {
+    "id": "xnolik",
+    "repoName": "XnoLik",
+    "title": "XnoLik",
+    "category": "oyinlar",
+    "shortDesc": "Yengilmas sun'iy intellektga qarshi X-O jangi! Botga yutqazmaslikka yoki hech bo‘lmaganda durang qilishga urinib ko‘ring.",
+    "fullDesc": "XnoLik — bu barchamizga tanish klassik \"X va O\" (Tic-Tac-Toe) o‘yinining eng murakkab va aqlli talqini. Bu yerda siz oddiy raqib bilan emas, balki har bir yurishni oldindan hisoblaydigan mutlaq yengilmas bot bilan bellashasiz!\nO‘yinning o‘ziga xos jihatlari:\nYengilmas AI raqib: Hech qanday xato qilmaydigan aqlli algoritm — uni yutish imkonsiz, lekin to‘g‘ri taktika bilan durangga erishish mumkin;\nTezkor va silliq jarayon: Ortiqcha kutishlarsiz, birgina teginish bilan darhol o‘yinni boshlang;\nMinimalist va ko‘zga yoqimli dizayn: Diqqatni chalg‘itmaydigan toza interfeys;\nOffline rejim: Internet bo‘lmagan joyda ham istalgan vaqtda miyani charxlash imkoniyati.\nStrategiyangizni sinab ko‘ring — bu aqlli botga yutqazmay, durang natijani saqlab qola olasizmi?",
+    "iconUrl": "https://azimaslamov.github.io/XnoLik/icon.png",
+    "screenshots": [],
+    "liveUrl": "https://azimaslamov.github.io/XnoLik/",
+    "version": "0.0.1",
+    "updated": "2026-08-17",
+    "installSelf": false
   }
 ]
