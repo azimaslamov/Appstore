@@ -95,7 +95,7 @@ dialog::backdrop{background:rgba(8,14,26,.55);-webkit-backdrop-filter:blur(2px);
 .howto li{margin:6px 0}
 
 /* Admin */
-.admin{width:min(900px,100%);max-width:100%;height:100dvh;max-height:100dvh;margin:0 auto;overflow:auto;padding-bottom:90px}
+.admin{width:min(900px,100%);max-width:100%;height:100dvh;max-height:100dvh;margin:0 auto;overflow:auto;padding-bottom:160px}
 .admin-bar{position:sticky;top:0;z-index:3;display:flex;justify-content:space-between;align-items:center;
   padding:calc(env(safe-area-inset-top) + 10px) 16px 10px;background:var(--surface);border-bottom:1px solid var(--line)}
 .admin-bar h2{margin:0;font-size:1.2rem}
