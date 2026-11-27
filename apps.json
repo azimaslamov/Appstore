@@ -51,5 +51,19 @@
     "version": "0.0.1",
     "updated": "2026-08-17",
     "installSelf": false
+  },
+  {
+    "id": "absurd-projekt",
+    "repoName": "ABSURD-projekt-",
+    "title": "ABSURD projekt",
+    "category": "oyinlar",
+    "shortDesc": "",
+    "fullDesc": "",
+    "iconUrl": "https://azimaslamov.github.io/ABSURD-projekt-/absurd.png",
+    "screenshots": [],
+    "liveUrl": "https://azimaslamov.github.io/ABSURD-projekt-/",
+    "version": "0.0.5",
+    "updated": "2026-11-27",
+    "installSelf": false
   }
 ]
