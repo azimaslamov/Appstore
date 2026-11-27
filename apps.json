@@ -12,5 +12,25 @@
     "version": "1.0.0",
     "updated": "2026-11-27",
     "installSelf": true
+  },
+  {
+    "id": "touchdown-100",
+    "repoName": "Touchdown-100-",
+    "title": "Touchdown 100",
+    "category": "oyinlar",
+    "shortDesc": "PA-02 raketasini boshqaring: 100 ta bosqich, lazerli missiyalar va kristallarga boy ochiq dunyo qo‘nish simulyatori!",
+    "fullDesc": "Touchdown 100 — bu fizikaga asoslangan haqiqiy raketa qo‘nish simulyatori. PA-02 raketasini muvozanatda ushlab, shamol, cheklangan yoqilg‘i va harakatlanuvchi maydonchalarni yengib, maydonchaga sekin hamda tik qo‘ndiring.",
+    "iconUrl": "https://azimaslamov.github.io/Touchdown-100-/icon-512.png/",
+    "screenshots": [
+      "https://azimaslamov.github.io/Touchdown-100-/td1.png",
+      "https://azimaslamov.github.io/Touchdown-100-/td2.png",
+      "https://azimaslamov.github.io/Touchdown-100-/td3.png",
+      "https://azimaslamov.github.io/Touchdown-100-/td4.png",
+      "https://azimaslamov.github.io/Touchdown-100-/td5.png"
+    ],
+    "liveUrl": "https://azimaslamov.github.io/Touchdown-100-/",
+    "version": "0.0.2",
+    "updated": "2026-11-25",
+    "installSelf": false
   }
 ]
