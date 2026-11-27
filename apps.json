@@ -1,0 +1,122 @@
+[
+  {
+    "id": "appstore",
+    "repoName": "Appstore",
+    "title": "Appstore",
+    "category": "foydali",
+    "shortDesc": "Azim loyihalarining shaxsiy do‘koni.",
+    "fullDesc": "Barcha ilova, o‘yin va foydali vositalar bir joyda.\nTelefoningiz ekraniga o‘rnating va yangi loyihalarni birinchi bo‘lib ko‘ring.",
+    "iconUrl": "icon.png",
+    "screenshots": [],
+    "liveUrl": "https://azimaslamov.github.io/Appstore/",
+    "version": "1.0.0",
+    "updated": "2026-11-27",
+    "installSelf": true
+  },
+  {
+    "id": "namuna-oyin",
+    "repoName": "namuna-oyin",
+    "title": "Namuna o‘yin",
+    "category": "oyinlar",
+    "shortDesc": "Bu o‘rinda o‘yiningizning qisqa tavsifi bo‘ladi.",
+    "fullDesc": "To‘liq tavsifni shu yerga yozing: o‘yin nima haqida, qanday o‘ynaladi va nimasi qiziq.\nYangi abzats uchun yangi qatordan foydalaning.",
+    "iconUrl": "",
+    "screenshots": [
+      "data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20360%20720%27%3E%3Crect%20width%3D%27360%27%20height%3D%27720%27%20fill%3D%27%232848F5%27/%3E%3Ctext%20x%3D%27180%27%20y%3D%27370%27%20font-size%3D%2734%27%20font-weight%3D%27700%27%20text-anchor%3D%27middle%27%20fill%3D%27%23FFFFFF%27%20font-family%3D%27sans-serif%27%3ELavha%201%3C/text%3E%3C/svg%3E",
+      "data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20360%20720%27%3E%3Crect%20width%3D%27360%27%20height%3D%27720%27%20fill%3D%27%230E1A2B%27/%3E%3Ctext%20x%3D%27180%27%20y%3D%27370%27%20font-size%3D%2734%27%20font-weight%3D%27700%27%20text-anchor%3D%27middle%27%20fill%3D%27%23FFFFFF%27%20font-family%3D%27sans-serif%27%3ELavha%202%3C/text%3E%3C/svg%3E",
+      "data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20360%20720%27%3E%3Crect%20width%3D%27360%27%20height%3D%27720%27%20fill%3D%27%236F8BFF%27/%3E%3Ctext%20x%3D%27180%27%20y%3D%27370%27%20font-size%3D%2734%27%20font-weight%3D%27700%27%20text-anchor%3D%27middle%27%20fill%3D%27%23FFFFFF%27%20font-family%3D%27sans-serif%27%3ELavha%203%3C/text%3E%3C/svg%3E"
+    ],
+    "liveUrl": "https://azimaslamov.github.io/namuna-oyin/",
+    "version": "0.1.0",
+    "updated": "2026-11-20",
+    "installSelf": false
+  },
+  {
+    "id": "namuna-vosita",
+    "repoName": "namuna-vosita",
+    "title": "Namuna vosita",
+    "category": "ilovalar",
+    "shortDesc": "Kundalik ishlar uchun kichik va tezkor vosita.",
+    "fullDesc": "Bu namuna yozuv. Uni admin panel orqali tahrirlang yoki o‘chiring.",
+    "iconUrl": "",
+    "screenshots": [],
+    "liveUrl": "https://azimaslamov.github.io/namuna-vosita/",
+    "version": "1.2.0",
+    "updated": "2026-11-10",
+    "installSelf": false
+  },
+  {
+    "id": "kosmik-zarba",
+    "repoName": "kosmik-zarba",
+    "title": "Kosmik zarba",
+    "category": "oyinlar",
+    "shortDesc": "Yulduzlar orasida tezkor jang.",
+    "fullDesc": "Kemangizni boshqaring, to‘siqlardan qoching va rekord o‘rnating.\nBir qo‘l bilan o‘ynashga mo‘ljallangan.",
+    "iconUrl": "",
+    "screenshots": [
+      "data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20360%20720%27%3E%3Crect%20width%3D%27360%27%20height%3D%27720%27%20fill%3D%27%237A1FA2%27/%3E%3Ctext%20x%3D%27180%27%20y%3D%27370%27%20font-size%3D%2734%27%20font-weight%3D%27700%27%20text-anchor%3D%27middle%27%20fill%3D%27%23FFFFFF%27%20font-family%3D%27sans-serif%27%3ELavha%201%3C/text%3E%3C/svg%3E",
+      "data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20360%20720%27%3E%3Crect%20width%3D%27360%27%20height%3D%27720%27%20fill%3D%27%2300695C%27/%3E%3Ctext%20x%3D%27180%27%20y%3D%27370%27%20font-size%3D%2734%27%20font-weight%3D%27700%27%20text-anchor%3D%27middle%27%20fill%3D%27%23FFFFFF%27%20font-family%3D%27sans-serif%27%3ELavha%202%3C/text%3E%3C/svg%3E",
+      "data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20360%20720%27%3E%3Crect%20width%3D%27360%27%20height%3D%27720%27%20fill%3D%27%23C2185B%27/%3E%3Ctext%20x%3D%27180%27%20y%3D%27370%27%20font-size%3D%2734%27%20font-weight%3D%27700%27%20text-anchor%3D%27middle%27%20fill%3D%27%23FFFFFF%27%20font-family%3D%27sans-serif%27%3ELavha%203%3C/text%3E%3C/svg%3E"
+    ],
+    "liveUrl": "https://azimaslamov.github.io/kosmik-zarba/",
+    "version": "0.9.0",
+    "updated": "2026-11-25",
+    "installSelf": false
+  },
+  {
+    "id": "soz-oyini",
+    "repoName": "soz-oyini",
+    "title": "So‘z o‘yini",
+    "category": "oyinlar",
+    "shortDesc": "Har kuni yangi so‘z topishmog‘i.",
+    "fullDesc": "Harflarni to‘g‘ri joylashtiring va so‘zni toping. Do‘stlaringiz bilan natijani solishtiring.",
+    "iconUrl": "",
+    "screenshots": [],
+    "liveUrl": "https://azimaslamov.github.io/soz-oyini/",
+    "version": "1.1.0",
+    "updated": "2026-11-18",
+    "installSelf": false
+  },
+  {
+    "id": "talim-kartalari",
+    "repoName": "talim-kartalari",
+    "title": "Ta’lim kartochkalari",
+    "category": "talim",
+    "shortDesc": "So‘zlarni kartochkalar bilan yodlang.",
+    "fullDesc": "O‘z kartochkalaringizni yarating va takrorlash jadvali bilan tez yodlang.",
+    "iconUrl": "",
+    "screenshots": [],
+    "liveUrl": "https://azimaslamov.github.io/talim-kartalari/",
+    "version": "1.0.3",
+    "updated": "2026-11-22",
+    "installSelf": false
+  },
+  {
+    "id": "hisob-kitob",
+    "repoName": "hisob-kitob",
+    "title": "Hisob-kitob",
+    "category": "foydali",
+    "shortDesc": "Kundalik xarajatlarni yozib boring.",
+    "fullDesc": "Daromad va xarajatlarni qo‘shing, oy oxirida umumiy hisobotni ko‘ring.",
+    "iconUrl": "",
+    "screenshots": [],
+    "liveUrl": "https://azimaslamov.github.io/hisob-kitob/",
+    "version": "2.0.0",
+    "updated": "2026-11-15",
+    "installSelf": false
+  },
+  {
+    "id": "ob-havo-mini",
+    "repoName": "ob-havo-mini",
+    "title": "Ob-havo mini",
+    "category": "obhavo",
+    "shortDesc": "Bugungi ob-havo bir qarashda.",
+    "fullDesc": "Harorat va yomg‘ir ehtimolini tez ko‘rsatadigan ixcham ilova.",
+    "iconUrl": "",
+    "screenshots": [],
+    "liveUrl": "https://azimaslamov.github.io/ob-havo-mini/",
+    "version": "1.0.0",
+    "updated": "2026-11-12",
+    "installSelf": false
+  }
+]

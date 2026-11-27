@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Appstore — Azim ilovalari</title>
+<meta name="description" content="Azim Aslamov loyihalari: ilovalar, o‘yinlar va foydali vositalar.">
+<meta name="theme-color" content="#131314">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Appstore">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar" id="home-bar">
+  <img class="logo" src="icon.png" alt="Appstore" width="44" height="44">
+  <span class="sp"></span>
+  <button class="round" id="btn-search" type="button" aria-label="Qidirish"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></button>
+</header>
+<header class="bar" id="search-bar" hidden>
+  <div class="pillbar">
+    <button class="ico" id="s-icon" type="button" aria-label="Qidiruv"></button>
+    <input id="q" type="search" placeholder="Ilova va o‘yinlarni qidirish" aria-label="Ilova va o‘yinlarni qidirish" autocomplete="off" enterkeyhint="search">
+  </div>
+</header>
+<main id="view"><p class="empty">Yuklanmoqda…</p><noscript><p class="empty">Appstore ishlashi uchun JavaScript yoqilgan bo‘lishi kerak.</p></noscript></main>
+<nav class="bnav" aria-label="Asosiy bo‘limlar">
+  <button type="button" data-tab="games" aria-current="page"><span class="pl"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 1.99-.9 1.99-2L23 8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg></span>O‘yinlar</button>
+  <button type="button" data-tab="apps" aria-current="false"><span class="pl"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/></svg></span>Ilovalar</button>
+  <button type="button" data-tab="search" aria-current="false"><span class="pl"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></span>Qidiruv</button>
+</nav>
+
+<!-- Batafsil sahifa -->
+<dialog id="detail" class="sheet" aria-label="Ilova haqida">
+  <button class="close" type="button" data-close aria-label="Yopish">×</button>
+  <div id="detail-body"></div>
+</dialog>
+
+<!-- Ekranga qo‘shish yo‘riqnomasi -->
+<dialog id="howto" class="sheet" aria-label="Ekranga qo‘shish yo‘riqnomasi">
+  <button class="close" type="button" data-close aria-label="Yopish">×</button>
+  <div id="howto-body"></div>
+</dialog>
+
+<!-- Yashirin boshqaruv paneli: faqat #boshqaruv-panel manzili orqali ochiladi -->
+<dialog id="admin" class="admin" aria-label="Boshqaruv paneli">
+  <div class="admin-bar">
+    <h2>Boshqaruv paneli</h2>
+    <button class="btn btn-ghost sm" type="button" data-close>Yopish</button>
+  </div>
+
+  <section class="a-sec">
+    <h3>GitHub tokeni</h3>
+    <p class="hint">Token faqat shu brauzerning localStorage xotirasida saqlanadi. Kerakli ruxsat: Contents — Read and write (faqat Appstore ombori uchun).</p>
+    <div class="row">
+      <input id="a-token" type="password" autocomplete="off" placeholder="github_pat_…" aria-label="GitHub Personal Access Token">
+      <button id="a-token-save" class="btn btn-ghost" type="button">Saqlash</button>
+      <button id="a-token-clear" class="btn btn-ghost" type="button">O‘chirish</button>
+    </div>
+    <p id="a-token-state" class="hint"></p>
+  </section>
+
+  <section class="a-sec">
+    <div class="row between">
+      <h3>Ilovalar <span id="a-count"></span></h3>
+      <button id="a-new" class="btn btn-ghost sm" type="button">+ Yangi ilova</button>
+    </div>
+    <ul id="a-list" class="a-list"></ul>
+  </section>
+
+  <section class="a-sec" id="a-repos-sec" hidden>
+    <h3>GitHub’dagi yangi omborlar</h3>
+    <p class="hint">Bular ro‘yxatda standart ko‘rinishda turibdi. Boyitish uchun apps.json ga qo‘shing.</p>
+    <ul id="a-repos" class="a-list"></ul>
+  </section>
+
+  <form id="a-form" class="a-sec" hidden>
+    <h3 id="a-form-title">Ilova ma’lumotlari</h3>
+    <label>Nomi <input id="f-title" required maxlength="60"></label>
+    <label>Ombor nomi <input id="f-repo" required placeholder="masalan: touchdown-100" autocapitalize="none" autocomplete="off"></label>
+    <label>Kategoriya <select id="f-cat"></select></label>
+    <label>Qisqa tavsif <input id="f-short" maxlength="140"></label>
+    <label>To‘liq tavsif <textarea id="f-full" rows="5"></textarea></label>
+    <label>Ikonka URL <input id="f-icon" type="url" placeholder="https://…/icon.png"></label>
+    <label>Skrinshot URL’lari (har biri alohida qatorda) <textarea id="f-shots" rows="4" placeholder="https://…/1.png"></textarea></label>
+    <label>Jonli havola <input id="f-live" type="url" placeholder="https://azimaslamov.github.io/…/"></label>
+    <div class="two">
+      <label>Versiya <input id="f-version" placeholder="1.0.0"></label>
+      <label>Yangilangan sana <input id="f-updated" type="date"></label>
+    </div>
+    <label class="check"><input id="f-self" type="checkbox"> Bu ilova Appstore’ning o‘zi (“Yuklab olish” brauzer o‘rnatish oynasini chaqiradi)</label>
+    <div class="row">
+      <button class="btn btn-primary" type="submit">Ro‘yxatga qo‘shish</button>
+      <button id="a-cancel" class="btn btn-ghost" type="button">Bekor qilish</button>
+    </div>
+  </form>
+
+  <div class="a-foot">
+    <button id="a-save" class="btn btn-primary" type="button">GitHub’da saqlash</button>
+    <button id="a-copy" class="btn btn-ghost" type="button">JSONni nusxalash</button>
+    <span id="a-dirty" class="hint"></span>
+  </div>
+</dialog>
+
+<div id="toast" class="toast" popover="manual" role="status" aria-live="polite"></div>
+
+
+<script src="app.js" defer></script>
+</body>
+</html>
