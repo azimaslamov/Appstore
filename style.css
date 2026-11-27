@@ -101,7 +101,6 @@ dialog::backdrop{background:rgba(8,14,26,.55);-webkit-backdrop-filter:blur(2px);
 .a-sec{padding:16px;border-bottom:1px solid var(--line)}
 .admin > .a-sec:last-of-type{padding-bottom:160px;border-bottom:0}
 .admin-bar h2{margin:0;font-size:1.2rem}
-.a-sec{padding:16px;border-bottom:1px solid var(--line)}
 .a-sec h3{margin:0 0 8px;font-size:1.02rem}
 .hint{margin:4px 0;color:var(--muted);font-size:.85rem}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
