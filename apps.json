@@ -72,5 +72,19 @@
     "version": "0.0.5",
     "updated": "2026-11-27",
     "installSelf": false
+  },
+  {
+    "id": "tasbex",
+    "repoName": "Tasbex",
+    "title": "Tasbex",
+    "category": "ilovalar",
+    "shortDesc": "Zikr sanash uchun qulay raqamli tasbeh — oflayn ishlaydi va telefoningizga ilova sifatida o'rnatiladi.",
+    "fullDesc": "Tasbeh — har kuni zikr qilishni yengil va chiroyli qiladigan zamonaviy raqamli tasbeh ilovasi.\nImkoniyatlari:\n📿 Tayyor zikrlar: Astag'firulloh, Subhanalloh, Alhamdulillah, Allohu Akbar va boshqalar — tarjimasi bilan.\n🎯 Maqsad tanlash: 33, 99 yoki cheksiz (∞). Maqsadga yetganda vibratsiya va chiroyli effekt bilan bildiradi.\n📅 Bugungi hisob: har yangi kunda avtomatik 0 dan boshlanadi, umumiy hisob esa saqlanib qoladi.\n⭐ Favorite zikrlar: sevimli zikrlaringizni yulduzcha bilan belgilab, alohida sahifada ko'ring.\n➕ O'z zikringizni qo'shing va kerak bo'lsa o'chiring.\n📊 Statistika: jami, bugungi va eng ko'p aytilgan zikr.\n🛡 Xavfsiz nolga tushirish: tasodifan bosib hisobni yo'qotmaslik uchun ikki bosqichli tasdiqlash.\n📴 Internetsiz (oflayn) ishlaydi va telefonga o'rnatiladi (PWA).\nBarcha ma'lumotlar faqat sizning qurilmangizda saqlanadi.",
+    "iconUrl": "https://azimaslamov.github.io/Tasbex/tasbex.png",
+    "screenshots": [],
+    "liveUrl": "https://azimaslamov.github.io/Tasbex/",
+    "version": "0.0.4",
+    "updated": "2026-05-28",
+    "installSelf": false
   }
 ]
