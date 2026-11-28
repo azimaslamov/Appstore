@@ -94,5 +94,22 @@
     "version": "0.0.4",
     "updated": "2026-05-27",
     "installSelf": false
+  },
+  {
+    "id": "fotiha-ayting",
+    "repoName": "Fotiha-ayting",
+    "title": "Fotiha surasi",
+    "category": "foydali",
+    "shortDesc": "Fotiha surasining o‘qilishi, ma’nosi va sanoq hisoblagichi — oflayn rejimda ham ishlaydi.",
+    "fullDesc": "Fotiha surasini o‘qish va yodlash uchun qulay minimalistik ilova. Bir tugma orqali o‘qilishi (transkripsiya) va o‘zbekcha ma’nosi o‘rtasida almashish, o‘qilgan suralar sonini xotirada saqlab borish hamda adashib bosib yuborishdan himoyalangan ikki bosqichli nolga tushirish imkoniyatiga ega.",
+    "iconUrl": "https://azimaslamov.github.io/Fotiha-ayting/fotiha.png",
+    "screenshots": [
+      "https://azimaslamov.github.io/Fotiha-ayting/a1.png",
+      "https://azimaslamov.github.io/Fotiha-ayting/a2.png"
+    ],
+    "liveUrl": "https://azimaslamov.github.io/Fotiha-ayting/",
+    "version": "0.0.2",
+    "updated": "2026-11-28",
+    "installSelf": false
   }
 ]
